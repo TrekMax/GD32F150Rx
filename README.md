@@ -1,4 +1,4 @@
-# GD32F150Rx 例程以相关使用归档
+# GD32F150Rx 例程及相关使用归档
 
 > 本仓库存放 GD32F150Rx 的相关使用例程以及对应的记录文档，方便大家快速上手 GD32F150Rx 开发
 
@@ -13,8 +13,10 @@
 |   └...
 ├── Resources # 资源收集
 │   ├── demo
-│   ├── docs # 有关 GD32 的相关开发文档
-│   │   |── GD32F130xx快速开发指南.pdf
+│   ├── docs # GD32 相关开发文档
+│   │   ├── GD32F130xx快速开发指南.pdf
+│   │   ├── GD32F150xx_Datasheet_Rev3.1.pdf
+│   │   ├── GD32F1x0_User_Manual_CN_Rev3.4.pdf
 |   |   └...
 │   ├── official_resources # GD32 官方资源
 │   │   ├── GD32F1x0_Addon_V3.1.0.rar # 该文件主要是 MDK(Keil 5) GD32 支持包
