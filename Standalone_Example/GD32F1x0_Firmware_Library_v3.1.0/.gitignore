@@ -1,0 +1,8 @@
+Template/Keil_project/output/
+Template/Keil_project/Project.uvgui.*
+
+
+Template_SipeedDualSerailPort/Blink_LED/Keil_project/output/*
+Template_SipeedDualSerailPort/Blink_LED/Keil_project/Project.uvgui.*
+Template_SipeedDualSerailPort/Printf/Keil_project/output/*
+Template_SipeedDualSerailPort/Auto_baudrate_detect/Keil_project/output/*
