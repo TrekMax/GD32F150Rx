@@ -14,7 +14,7 @@
 
 #include "audio_core.h"
 
-usbd_core_handle_struct  usb_device_dev = 
+usbd_core_handle_struct  usb_device_dev =
 {
     .dev_desc = (uint8_t *)&device_descriptor,
     .config_desc = (uint8_t *)&configuration_descriptor,
@@ -68,7 +68,7 @@ int main(void)
 */
 void rcu_config(void)
 {
-    /* enable USB pull-up pin clock */ 
+    /* enable USB pull-up pin clock */
     rcu_periph_clock_enable(RCC_AHBPeriph_GPIO_PULLUP);
 
     /* configure USB model clock from PLL clock */

@@ -15,9 +15,9 @@
 #include "usbd_std.h"
 #include "msc_core.h"
 
-#define USB_PULLUP                      GPIOC
-#define USB_PULLUP_PIN                  GPIO_PIN_2
-#define RCC_AHBPeriph_GPIO_PULLUP       RCU_GPIOC
+#define USB_PULLUP                      GPIOB
+#define USB_PULLUP_PIN                  GPIO_PIN_3
+#define RCC_AHBPeriph_GPIO_PULLUP       RCU_GPIOB
 
 usbd_core_handle_struct  usb_device_dev = 
 {

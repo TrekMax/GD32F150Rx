@@ -47,7 +47,10 @@ int main(void)
 
     /* GPIO configuration */
     gpio_config();
-
+    
+//    /* disabled USB pull-up */
+//    gpio_bit_reset(USB_PULLUP, USB_PULLUP_PIN);
+//    
     /* USB device configuration */
     usbd_core_init(&usb_device_dev);
 

@@ -1,0 +1,8 @@
+*.o
+*.d
+*.sct
+*.crf
+*.lnp
+*.htm
+*.uvgui.*
+*.map

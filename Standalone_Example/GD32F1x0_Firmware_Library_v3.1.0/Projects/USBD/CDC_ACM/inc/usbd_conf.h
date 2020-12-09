@@ -44,8 +44,8 @@
 /* base address of the allocation buffer, used for buffer descriptor table and packet memory */
 #define BUFFER_ADDRESS                     (0x0000U)
 
-#define USB_PULLUP                         GPIOC
-#define USB_PULLUP_PIN                     GPIO_PIN_2
-#define RCC_AHBPeriph_GPIO_PULLUP          RCU_GPIOC
+#define USB_PULLUP                         GPIOB
+#define USB_PULLUP_PIN                     GPIO_PIN_3
+#define RCC_AHBPeriph_GPIO_PULLUP          RCU_GPIOB
 
 #endif /* USBD_CONF_H */
