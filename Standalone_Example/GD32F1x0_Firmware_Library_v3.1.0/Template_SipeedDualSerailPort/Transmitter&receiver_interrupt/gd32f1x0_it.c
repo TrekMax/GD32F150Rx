@@ -13,12 +13,12 @@
 */
 
 #include "gd32f1x0_it.h"
-#include "gd32f1x0_eval.h"
+#include "config.h"
 
 extern uint8_t transfersize;
 extern uint8_t receivesize;
-extern __IO uint8_t txcount; 
-extern __IO uint16_t rxcount; 
+extern __IO uint8_t txcount;
+extern __IO uint16_t rxcount;
 extern uint8_t receiver_buffer[32];
 extern uint8_t transmitter_buffer[];
 /*!
@@ -115,21 +115,25 @@ void PendSV_Handler(void)
     \param[out] none
     \retval     none
 */
+#ifdef COM1
+void USART1_IRQHandler(void)
+#else
 void USART0_IRQHandler(void)
+#endif
 {
-    if(RESET != usart_interrupt_flag_get(EVAL_COM1, USART_INT_FLAG_RBNE)){
+    if(RESET != usart_interrupt_flag_get(COM_NUM, USART_INT_FLAG_RBNE)){
         /* receive data */
-        receiver_buffer[rxcount++] = usart_data_receive(EVAL_COM1);
+        receiver_buffer[rxcount++] = usart_data_receive(COM_NUM);
         if(rxcount == receivesize){
-            usart_interrupt_disable(EVAL_COM1, USART_INT_RBNE);
+            usart_interrupt_disable(COM_NUM, USART_INT_RBNE);
         }
     }
 
-    if(RESET != usart_interrupt_flag_get(EVAL_COM1, USART_INT_FLAG_TBE)){
+    if(RESET != usart_interrupt_flag_get(COM_NUM, USART_INT_FLAG_TBE)){
         /* transmit data */
-        usart_data_transmit(EVAL_COM1, transmitter_buffer[txcount++]);
+        usart_data_transmit(COM_NUM, transmitter_buffer[txcount++]);
         if(txcount == transfersize){
-            usart_interrupt_disable(EVAL_COM1, USART_INT_TBE);
+            usart_interrupt_disable(COM_NUM, USART_INT_TBE);
         }
     }
 }
