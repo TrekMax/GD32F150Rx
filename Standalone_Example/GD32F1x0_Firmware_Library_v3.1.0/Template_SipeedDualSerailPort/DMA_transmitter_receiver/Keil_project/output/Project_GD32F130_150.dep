@@ -1,7 +1,7 @@
 Dependencies for Project 'Project', Target 'GD32F130_150': (DO NOT MODIFY !)
 CompilerVersion: 6150000::V6.15::ARMCLANG
-F (..\gd32f1x0_it.c)(0x5FDB88CD)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../../Firmware/CMSIS/GD/GD32F1x0/Include -I ../../../Utilities -I ../../../Firmware/CMSIS -I ../../Printf -I ../../../Firmware/CMSIS/GD/GD32F1x0/Source/ARM -I ../../../Firmware/GD32F1x0_standard_peripheral/Include-IC:/Users/TsMax/AppData/Local/Arm/Packs/GigaDevice/GD32F1x0_DFP/3.2.0/Device/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="533" -DGD32F1x0 -DGD32F130_150 -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F130_150-o ./output/gd32f1x0_it.o -MD)
-I (..\gd32f1x0_it.h)(0x5FD1069F)
+F (..\gd32f1x0_it.c)(0x5FDB8C01)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../../Firmware/CMSIS/GD/GD32F1x0/Include -I ../../../Utilities -I ../../../Firmware/CMSIS -I ../../Printf -I ../../../Firmware/CMSIS/GD/GD32F1x0/Source/ARM -I ../../../Firmware/GD32F1x0_standard_peripheral/Include-IC:/Users/TsMax/AppData/Local/Arm/Packs/GigaDevice/GD32F1x0_DFP/3.2.0/Device/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="533" -DGD32F1x0 -DGD32F130_150 -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F130_150-o ./output/gd32f1x0_it.o -MD)
+I (..\gd32f1x0_it.h)(0x5FDB8B53)
 I (..\..\..\Firmware\CMSIS\GD\GD32F1x0\Include\gd32f1x0.h)(0x5F95CA1A)
 I (..\..\..\Firmware\CMSIS\core_cm3.h)(0x5F95CA1A)
 I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5F36D0A8)
@@ -31,8 +31,8 @@ I (..\..\..\Firmware\GD32F1x0_standard_peripheral\Include\gd32f1x0_usart.h)(0x5F
 I (..\..\..\Firmware\GD32F1x0_standard_peripheral\Include\gd32f1x0_wwdgt.h)(0x5F95CA1A)
 I (..\..\..\Firmware\GD32F1x0_standard_peripheral\Include\gd32f1x0_misc.h)(0x5F95CA1A)
 I (..\..\..\Firmware\GD32F1x0_standard_peripheral\Include\gd32f1x0_tsi.h)(0x5F95CA1A)
-I (..\config.h)(0x5FDB88F3)
-F (..\main.c)(0x5FDB88A6)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../../Firmware/CMSIS/GD/GD32F1x0/Include -I ../../../Utilities -I ../../../Firmware/CMSIS -I ../../Printf -I ../../../Firmware/CMSIS/GD/GD32F1x0/Source/ARM -I ../../../Firmware/GD32F1x0_standard_peripheral/Include-IC:/Users/TsMax/AppData/Local/Arm/Packs/GigaDevice/GD32F1x0_DFP/3.2.0/Device/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="533" -DGD32F1x0 -DGD32F130_150 -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F130_150-o ./output/main.o -MD)
+I (..\config.h)(0x5FDD5677)
+F (..\main.c)(0x5FDD5630)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../../Firmware/CMSIS/GD/GD32F1x0/Include -I ../../../Utilities -I ../../../Firmware/CMSIS -I ../../Printf -I ../../../Firmware/CMSIS/GD/GD32F1x0/Source/ARM -I ../../../Firmware/GD32F1x0_standard_peripheral/Include-IC:/Users/TsMax/AppData/Local/Arm/Packs/GigaDevice/GD32F1x0_DFP/3.2.0/Device/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="533" -DGD32F1x0 -DGD32F130_150 -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F130_150-o ./output/main.o -MD)
 I (..\..\..\Firmware\CMSIS\GD\GD32F1x0\Include\gd32f1x0.h)(0x5F95CA1A)
 I (..\..\..\Firmware\CMSIS\core_cm3.h)(0x5F95CA1A)
 I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5F36D0A8)
@@ -63,8 +63,8 @@ I (..\..\..\Firmware\GD32F1x0_standard_peripheral\Include\gd32f1x0_wwdgt.h)(0x5F
 I (..\..\..\Firmware\GD32F1x0_standard_peripheral\Include\gd32f1x0_misc.h)(0x5F95CA1A)
 I (..\..\..\Firmware\GD32F1x0_standard_peripheral\Include\gd32f1x0_tsi.h)(0x5F95CA1A)
 I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x5F36D0B4)
-I (..\config.h)(0x5FDB88F3)
-F (..\systick.c)(0x5FD1070B)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../../Firmware/CMSIS/GD/GD32F1x0/Include -I ../../../Utilities -I ../../../Firmware/CMSIS -I ../../Printf -I ../../../Firmware/CMSIS/GD/GD32F1x0/Source/ARM -I ../../../Firmware/GD32F1x0_standard_peripheral/Include-IC:/Users/TsMax/AppData/Local/Arm/Packs/GigaDevice/GD32F1x0_DFP/3.2.0/Device/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="533" -DGD32F1x0 -DGD32F130_150 -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F130_150-o ./output/systick.o -MD)
+I (..\config.h)(0x5FDD5677)
+F (..\systick.c)(0x5FDB8B53)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../../Firmware/CMSIS/GD/GD32F1x0/Include -I ../../../Utilities -I ../../../Firmware/CMSIS -I ../../Printf -I ../../../Firmware/CMSIS/GD/GD32F1x0/Source/ARM -I ../../../Firmware/GD32F1x0_standard_peripheral/Include-IC:/Users/TsMax/AppData/Local/Arm/Packs/GigaDevice/GD32F1x0_DFP/3.2.0/Device/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="533" -DGD32F1x0 -DGD32F130_150 -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F130_150-o ./output/systick.o -MD)
 I (..\..\..\Firmware\CMSIS\GD\GD32F1x0\Include\gd32f1x0.h)(0x5F95CA1A)
 I (..\..\..\Firmware\CMSIS\core_cm3.h)(0x5F95CA1A)
 I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5F36D0A8)
@@ -94,7 +94,7 @@ I (..\..\..\Firmware\GD32F1x0_standard_peripheral\Include\gd32f1x0_usart.h)(0x5F
 I (..\..\..\Firmware\GD32F1x0_standard_peripheral\Include\gd32f1x0_wwdgt.h)(0x5F95CA1A)
 I (..\..\..\Firmware\GD32F1x0_standard_peripheral\Include\gd32f1x0_misc.h)(0x5F95CA1A)
 I (..\..\..\Firmware\GD32F1x0_standard_peripheral\Include\gd32f1x0_tsi.h)(0x5F95CA1A)
-I (..\systick.h)(0x5FD1070B)
+I (..\systick.h)(0x5FDB8B53)
 F (..\..\..\Firmware\CMSIS\GD\GD32F1x0\Source\system_gd32f1x0.c)(0x5F95CA1A)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../../../Firmware/CMSIS/GD/GD32F1x0/Include -I ../../../Utilities -I ../../../Firmware/CMSIS -I ../../Printf -I ../../../Firmware/CMSIS/GD/GD32F1x0/Source/ARM -I ../../../Firmware/GD32F1x0_standard_peripheral/Include-IC:/Users/TsMax/AppData/Local/Arm/Packs/GigaDevice/GD32F1x0_DFP/3.2.0/Device/Include-IC:/Keil_v5/ARM/CMSIS/Include-D__UVISION_VERSION="533" -DGD32F1x0 -DGD32F130_150 -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F130_150-o ./output/system_gd32f1x0.o -MD)
 I (..\..\..\Firmware\CMSIS\GD\GD32F1x0\Include\gd32f1x0.h)(0x5F95CA1A)
 I (..\..\..\Firmware\CMSIS\core_cm3.h)(0x5F95CA1A)
@@ -821,4 +821,4 @@ I (..\..\..\Firmware\GD32F1x0_standard_peripheral\Include\gd32f1x0_usart.h)(0x5F
 I (..\..\..\Firmware\GD32F1x0_standard_peripheral\Include\gd32f1x0_wwdgt.h)(0x5F95CA1A)
 I (..\..\..\Firmware\GD32F1x0_standard_peripheral\Include\gd32f1x0_misc.h)(0x5F95CA1A)
 I (..\..\..\Firmware\GD32F1x0_standard_peripheral\Include\gd32f1x0_tsi.h)(0x5F95CA1A)
-F (..\readme.txt)(0x5FD1069F)()
+F (..\readme.txt)(0x5FDB8B34)()
